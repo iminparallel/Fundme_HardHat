@@ -1,6 +1,6 @@
 # Hardhat FundMe(0x52d12D2758C58E0F451B346e7edC36718C40808b)
 
-0. mkdir [project name], cd [project name]
+0. mkdir [project name], cd [project name]</br>
    .env </br>
    ETHERSCAN_API_KEY= </br>
    COINMARKETCAP_API_KEY= </br>
