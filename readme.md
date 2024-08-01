@@ -2,10 +2,10 @@
 
 0. mkdir [project name], cd [project name]
    .env
-   ETHERSCAN_API_KEY=
-   COINMARKETCAP_API_KEY=
-   SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/[your api key from alchemy]
-   PRIVATE_KEY=
+   ETHERSCAN_API_KEY= </br>
+   COINMARKETCAP_API_KEY= </br>
+   SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/[your api key from alchemy] </br>
+   PRIVATE_KEY= <br>
 
 1. yarn init -- to initialize package.json
 
