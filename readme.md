@@ -1,7 +1,7 @@
 # Hardhat FundMe(0x52d12D2758C58E0F451B346e7edC36718C40808b)
 
 0. mkdir [project name], cd [project name]
-   .env
+   .env </br>
    ETHERSCAN_API_KEY= </br>
    COINMARKETCAP_API_KEY= </br>
    SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/[your api key from alchemy] </br>
