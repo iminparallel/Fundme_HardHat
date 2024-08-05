@@ -29,14 +29,26 @@
 
 11. yarn hardhat deploy -- to run the deploy scripts
 
-12. yarn hardhat deploy --tags mocks -- to deploy mocks
+12. yarn add @nomiclabs/hardhat-waffle -- add require in hardhat.config
 
-13. yarn add @nomiclabs/hardhat-waffle -- add require in hardhat.config
+13. yarn hardhat deploy --tags mocks -- to run mocks
 
-14. yarn hardhat deploy --tags mocks -- to run mocks
+14. yarn hardhat node
 
-15. yarn hardhat node
+15. yarn add --dev @nomicfoundation/hardhat-verify --- and add it in hardhat config
 
-16. yarn add --dev @nomicfoundation/hardhat-verify --- and add it in hardhat config
+16. yarn hardhat deploy --network sepolia -- testnet deploy
 
-17. yarn hardhat deploy --network sepolia -- testnet deploy
+17. yarn hardhat test -- to run test
+
+18. yarn add --dev @nomicfoundation/hardhat-toolbox -- because revertedWith not working
+
+19. yarn add --dev @nomicfoundation/hardhat-chai-matchers @types/chai @types/mocha ts-node typescript
+
+20. 18, 19 conflict with @nomiclabs/hardhat-waffle
+
+21. yarn add --dev ethereum-waffle --
+
+yarn add --dev @nomiclabs/hardhat-waffle:@nomicfoundation/hardhat-chai-matchers -- installing deploy-ethers the weird way
+
+"@nomicfoundation/hardhat-chai-matchers@^2.0.0" "@typechain/ethers-v6@^0.5.0" "@typechain/hardhat@^9.0.0" "@types/chai@^4.2.0" "@types/mocha@>=9.1.0" "ts-node@>=8.0.0" "typescript@>=4.5.0" -- hardhat-toolbox dependencies
