@@ -47,8 +47,6 @@
 
 20. 18, 19 conflict with @nomiclabs/hardhat-waffle
 
-21. yarn add --dev ethereum-waffle --
-
-yarn add --dev @nomiclabs/hardhat-waffle:@nomicfoundation/hardhat-chai-matchers -- installing deploy-ethers the weird way
-
-"@nomicfoundation/hardhat-chai-matchers@^2.0.0" "@typechain/ethers-v6@^0.5.0" "@typechain/hardhat@^9.0.0" "@types/chai@^4.2.0" "@types/mocha@>=9.1.0" "ts-node@>=8.0.0" "typescript@>=4.5.0" -- hardhat-toolbox dependencies
+21. yarn add --dev ethereum-waffle --> this will not work @nomicfoundation/hardhat-toolbox is the way
+    deps:
+    "@nomicfoundation/hardhat-chai-matchers@^2.0.0" "@typechain/ethers-v6@^0.5.0" "@typechain/hardhat@^9.0.0" "@types/chai@^4.2.0" "@types/mocha@>=9.1.0" "ts-node@>=8.0.0" "typescript@>=4.5.0" -- hardhat-toolbox dependencies
