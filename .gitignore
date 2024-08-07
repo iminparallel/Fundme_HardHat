@@ -9,7 +9,7 @@ node_modules
 /typechain
 /typechain-types
 
-deployments
+/deployments
 
 # solidity-coverage files
 /coverage
