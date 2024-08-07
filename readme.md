@@ -1,4 +1,4 @@
-# Hardhat FundMe(0x52d12D2758C58E0F451B346e7edC36718C40808b)
+# Hardhat FundMe
 
 0. mkdir [project name], cd [project name]</br>
    .env </br>
@@ -53,3 +53,7 @@
 22. Ways to make a contract cheaper:
     i. avoid reading and writing from storage variables as much as possible
     ii. there's something about private variables and declaring functions for them
+
+23. add mocha: {
+    timeout: 500000,
+    }, in hardhat config to run tests on test network
