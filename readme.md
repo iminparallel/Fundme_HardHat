@@ -50,3 +50,6 @@
 21. yarn add --dev ethereum-waffle --> this will not work @nomicfoundation/hardhat-toolbox is the way
     deps:
     "@nomicfoundation/hardhat-chai-matchers@^2.0.0" "@typechain/ethers-v6@^0.5.0" "@typechain/hardhat@^9.0.0" "@types/chai@^4.2.0" "@types/mocha@>=9.1.0" "ts-node@>=8.0.0" "typescript@>=4.5.0" -- hardhat-toolbox dependencies
+22. Ways to make a contract cheaper:
+    i. avoid reading and writing from storage variables as much as possible
+    ii. there's something about private variables and declaring functions for them
