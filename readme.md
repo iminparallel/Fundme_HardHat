@@ -57,3 +57,7 @@
 23. add mocha: {
     timeout: 500000,
     }, in hardhat config to run tests on test network
+24. To run scripts
+    i. yarn hardhat node, open a new terminal
+    ii. yarn hardhat run scripts/fund.js --network localhost
+    iii. yarn hardhat run scripts/withdraw.js --network localhost
