@@ -1,0 +1,15 @@
+{
+  "name": "ls",
+  "version": "yarn init",
+  "description": "FundMe FrondEnd",
+  "main": "index.js",
+  "author": "harit chowdhury",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "ethers": "^6.13.2"
+  }
+}

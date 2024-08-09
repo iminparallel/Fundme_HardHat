@@ -41,6 +41,10 @@
 
 17. yarn hardhat test -- to run test
 
+# For Tests To Work read 18 to 21
+
+---
+
 18. yarn add --dev @nomicfoundation/hardhat-toolbox -- because revertedWith not working
 
 19. yarn add --dev @nomicfoundation/hardhat-chai-matchers @types/chai @types/mocha ts-node typescript
@@ -50,6 +54,9 @@
 21. yarn add --dev ethereum-waffle --> this will not work @nomicfoundation/hardhat-toolbox is the way
     deps:
     "@nomicfoundation/hardhat-chai-matchers@^2.0.0" "@typechain/ethers-v6@^0.5.0" "@typechain/hardhat@^9.0.0" "@types/chai@^4.2.0" "@types/mocha@>=9.1.0" "ts-node@>=8.0.0" "typescript@>=4.5.0" -- hardhat-toolbox dependencies
+
+---
+
 22. Ways to make a contract cheaper:
     i. avoid reading and writing from storage variables as much as possible
     ii. there's something about private variables and declaring functions for them
@@ -61,3 +68,14 @@
     i. yarn hardhat node, open a new terminal
     ii. yarn hardhat run scripts/fund.js --network localhost
     iii. yarn hardhat run scripts/withdraw.js --network localhost
+25. running the frontend:
+    1. yarn hardhat compile
+    2. copy the abi section from /artifacts/contracts/FundMe.sol/fundme.json and replace it with the abi section of frontend/constants.js
+    3. yarn hardhat node from root folder, copy the deployed at contract address and swap it with the contract address of frontend/constants.js
+    4. add a new network in metamask with the config:
+       Network name: HardHat-localhost
+       New RPC URL: http://127.0.0.1:8545/ || node rpc url
+       Chain ID: 31337
+       Currency symbol: Eth
+       Block explorer URL: NA
+    5. import one pf the private keys from the running node to your metamask
